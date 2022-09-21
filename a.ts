@@ -84,3 +84,47 @@ function PhoneBook (data:PersonDetails)
      return persons
 
 }
+
+
+
+
+interface User {
+  type: 'user';
+  name: string;
+  age: number;
+  occupation: string;
+}
+
+const   User =
+{
+  type: 'user',
+  name: 'onk',
+  age: 24,
+  occupation:"engineer"
+}
+
+interface Admin {
+  type: 'admin';
+  name: string;
+  age: number;
+  role: string;
+}
+
+const  Admin =
+{
+  type: 'admin',
+  name: "onk",
+  age: 24,
+  role: "bjbhjb",
+}
+
+function check(User) {
+   
+  return User.type
+}
+console.log(check(User))
+
+
+
+
+

@@ -41,3 +41,19 @@ function PhoneBook(data) {
     persons.push(data);
     return persons;
 }
+var User = {
+    type: 'user',
+    name: 'onk',
+    age: 24,
+    occupation: "engineer"
+};
+var Admin = {
+    type: 'admin',
+    name: "onk",
+    age: 24,
+    role: "bjbhjb"
+};
+function check(User) {
+    return User.type;
+}
+console.log(check(User));

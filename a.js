@@ -36,5 +36,8 @@ function getName(_a) {
 //  data=[
 //   const PersonDetails :{
 // }]
-// function Phonebook(PersonDetails){
-// }
+var persons = [];
+function PhoneBook(data) {
+    persons.push(data);
+    return persons;
+}

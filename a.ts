@@ -75,6 +75,12 @@ interface PersonDetails {
 //   const PersonDetails :{
 
 // }]
-// function Phonebook(PersonDetails){
 
-// }
+let persons :PersonDetails[] =[]
+
+function PhoneBook (data:PersonDetails) 
+{
+     persons.push(data)
+     return persons
+
+}

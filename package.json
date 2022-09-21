@@ -1,0 +1,14 @@
+{
+  "name": "tipescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "a.js",
+  "scripts": {
+    "start":"tsc a.ts --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.3"
+  }
+}
